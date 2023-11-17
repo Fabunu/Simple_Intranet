@@ -21,7 +21,7 @@ class Profesor(Intranet):
         self.nombre = nombre
         self.matricula = matricula
         self.password = password
-    def cambiar_nota(Alumno)
+    def cambiar_nota(Alumno):
 class Alumno(Intranet):
     self.ramos = []
     def __init__(self, nombre, apellido, matricula, email, password):
@@ -29,7 +29,7 @@ class Alumno(Intranet):
     def __str__(self):
         return f"Nombre: {self.nombre}\nApellido: {self.apellido}\nMatricula: {self.matricula}\nEmail: {self.email}\nPassword: {self.password}"
 
-class Ramo):
+class Ramo:
     def __init__(self, nombre, codigo, modulo, profesor):
         self.nombre = nombre
         self.codigo = codigo
